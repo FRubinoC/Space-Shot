@@ -1,0 +1,172 @@
+body
+{
+    background: url("immagini/space.jpg") no-repeat center top;
+    background-size: cover;
+}
+
+#Titolo
+{
+    text-align: center;
+}
+
+#Titolo h1
+{
+    font-size: 70px;
+    color: white;
+    text-shadow: -4px 0 blueviolet, 0 4px blueviolet, 4px 0 blueviolet, 0 -4px blueviolet;
+    border-radius: 10px;
+    font-family: OCR A Std, monospace
+}
+
+#loginForm
+{
+    text-align: center;
+    height: 240px;
+    width: 300px;
+    background: black;
+    opacity: 0.8;
+    border: 2px solid orange;
+    position: absolute;
+    top: 140px;
+    left: 630px;
+}
+
+#loginForm h2
+{
+    opacity: 1;
+    font-weight: bold;
+    font-size: 22px;
+    color: blueviolet;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    font-family: Optima, sans-serif;
+    height: 25px;
+}
+
+#loginForm input[type="submit"]
+{
+	border-color: #4b20b6;
+    background-color: #4b20b6;
+    width: 100px;
+    height: 30px;
+	margin-top: 7%;
+	color: white;
+	border-width: 1px;
+    border-radius: 4px;
+    font-size: 23px;
+}
+
+#erroreLogin
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin: auto;
+	width: 90%;
+	position: relative;
+	border: 1px solid white;
+    border-radius: 4px;
+    background: rgb(193, 79, 69);
+	color: white;
+	text-align: center;
+	text-shadow: 0 0 3px rgb(255, 255, 255);
+    padding: 5px;
+}
+
+#intermezzo
+{
+    text-align: center;
+    position: absolute;
+    top: 400px;
+    left: 500px;
+}
+
+#intermezzo span
+{
+    color: white;
+    font-size: 24px;
+    opacity: 1;
+    font-weight: bold;
+    color: blueviolet;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    font-family: Optima, sans-serif;
+}
+
+#registrationForm
+{
+    text-align: center;
+    height: 240px;
+    width: 300px;
+    background: black;
+    opacity: 0.8;
+    border: 2px solid orange;
+    position: absolute;
+    top: 450px;
+    left: 630px;
+}
+
+#registrationForm h2
+{
+    opacity: 1;
+    font-weight: bold;
+    font-size: 22px;
+    color: blueviolet;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    font-family: Optima, sans-serif;
+    height: 25px;
+}
+
+#registrationForm input[type="submit"]
+{
+	border-color: #4b20b6;
+    background-color: #4b20b6;
+    width: 120px;
+    height: 30px;
+	margin-top: 7%;
+	color: white;
+	border-width: 1px;
+    border-radius: 4px;
+    font-size: 23px;
+}
+
+#errorReg
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin: auto;
+	width: 90%;
+	position: relative;
+	border: 1px solid white;
+    border-radius: 4px;
+    background: rgb(193, 79, 69);
+	color: white;
+	text-align: center;
+	text-shadow: 0 0 3px rgb(255, 255, 255);
+    padding: 5px;
+}
+
+#regComplete
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin: auto;
+	width: 90%;
+	position: relative;
+	border: 1px solid white;
+    border-radius: 4px;
+    background: rgb(35, 152, 45);
+	color: white;
+	text-align: center;
+	text-shadow: 0 0 3px rgb(255, 255, 255);
+    padding: 5px;
+}
+
+#contenitoreLogin input[type="submit"]
+{
+	border-color: #4b20b6;
+    background-color: #4b20b6;
+    width: 100px;
+    height: 30px;
+	margin-top: 5%;
+	color: white;
+	border-width: 1px;
+	border-radius: 4px;
+}

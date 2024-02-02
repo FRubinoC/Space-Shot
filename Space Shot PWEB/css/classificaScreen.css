@@ -1,0 +1,195 @@
+html, a
+{
+    cursor: url("./immagini/cursor1.ico"), auto;
+}
+
+body
+{
+    background: url("immagini/space.jpg") no-repeat center top;
+    background-size: cover;
+}
+
+#classifica
+{
+    position: absolute;
+    top: 20px;
+    left: 600px;
+}
+
+#classifica h1
+{
+    margin-top: 5px;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    font-family: Optima, sans-serif;
+    text-shadow: -2px 0 blueviolet, 0 2px blueviolet, 2px 0 blueviolet, 0 -2px blueviolet;
+}
+
+table
+{
+    position: absolute;
+    left: 630px;
+    top: 130px;
+    border: 10px groove blueviolet;
+    text-align: center;
+}
+
+tr
+{
+    background: white;
+}
+
+th
+{
+    font-size: 35px;
+    color: rgb(74, 28, 117);
+}
+
+td
+{
+    font-size: 30px;
+    color: blueviolet;
+}
+
+#homeButton
+{
+    width: 110px;
+    background-color: blueviolet;
+    border-width: 1px;
+    border-radius: 4px;
+    position: absolute;
+    top: 650px;
+    left: 710px;
+}
+
+#homeButton a
+{
+    margin-top: 5px;
+    font-size: 40px;
+    text-align: center;
+    color: blueviolet;
+    font-family: Optima, sans-serif;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    text-decoration: none;
+}
+
+#decorationShip
+{
+    width: 58px;
+    height: 60px;
+    background-image: url('./immagini/ship.png');
+    position: absolute;
+    top: 550px;
+    left: 250px;
+}
+
+#decorationShot1
+{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-image: url('./immagini/shot.png');
+    top: 350px;
+    left: 150px;
+}
+
+#decorationShot2
+{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-image: url('./immagini/shot.png');
+    top: 460px;
+    left: 280px;
+}
+
+#decorationAlien1
+{
+    width: 96px;
+    height: 46px;
+    position: absolute;
+    top: 260px;
+    left: 180px;
+    background-image: url("./immagini/alien1.png");
+}
+
+#decorationAlien4
+{
+    width: 96px;
+    height: 46px;
+    position: absolute;
+    top: 140px;
+    left: 130px;
+    background-image: url("./immagini/alien4.png");
+}
+
+#decorationShot3
+{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-image: url('./immagini/shot.png');
+    top: 400px;
+    left: 1200px;
+}
+
+#decorationAlien2
+{
+    width: 96px;
+    height: 46px;
+    position: absolute;
+    top: 160px;
+    left: 1260px;
+    background-image: url('./immagini/alien3.png');
+}
+
+#decorationAlien3
+{
+    width: 96px;
+    height: 46px;
+    position: absolute;
+    top: 80px;
+    left: 1100px;
+    background-image: url('./immagini/alien2.png');
+}
+
+#decorationShot4
+{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-image: url('./immagini/shot.png');
+    top: 400px;
+    left: 240px;
+}
+
+#decorationShot5
+{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-image: url('./immagini/shot.png');
+    top: 480px;
+    left: 1320px;
+}
+
+#decorationExplosion1
+{
+    width: 62px;
+    height: 84px;
+    position: absolute;
+    background-image: url("./immagini/explosion.png");
+    top: 250px;
+    left: 1360px;
+}
+
+#decorationExplosion2
+{
+    width: 62px;
+    height: 84px;
+    position: absolute;
+    background-image: url("./immagini/explosion.png");
+    top: 80px;
+    left: 280px;
+}

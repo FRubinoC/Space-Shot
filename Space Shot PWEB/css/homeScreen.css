@@ -1,0 +1,91 @@
+html, a, label
+{
+    cursor: url("./immagini/cursor1.ico"), auto;
+}
+
+body
+{
+    background: url("immagini/space.jpg") no-repeat center top;
+    background-size: cover;
+}
+
+#titolo
+{
+    text-align: center;    
+}
+
+#titolo h1
+{
+    font-size: 120px;
+    color: white;
+    text-shadow: -4px 0 blueviolet, 0 4px blueviolet, 4px 0 blueviolet, 0 -4px blueviolet;
+    border-radius: 10px;
+    font-family: OCR A Std, monospace
+}
+
+#opzioni
+{
+    text-align: center;
+}
+
+.list
+{
+    height: 100px;
+}
+
+
+#opzioni a
+{
+    font-weight: bold;
+    font-size: 50px;
+    color: blueviolet;
+    padding-top: 20px;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    text-decoration: none;
+    font-family: Optima, sans-serif;
+    height: 60px;
+}
+
+#profile
+{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 15px;
+    left: 86%;
+    text-align: center;
+    background: blueviolet;
+    border-radius: 20px;
+}
+
+#profile label
+{
+    font-weight: bold;
+    font-size: 25px;
+    color: blueviolet;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    font-family: Optima, sans-serif;
+    height: 25px;
+    text-align: center;
+}
+
+#profile a
+{
+    font-family: Optima, sans-serif;
+    text-shadow: -2px 0 blueviolet, 0 2px blueviolet, 2px 0 blueviolet, 0 -2px blueviolet;
+	color: white;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+#contLogout
+{
+    margin-top: 8px;
+    margin-left: 50px;
+    text-align: center;
+    width: 100px;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 4px;
+}
+

@@ -1,0 +1,88 @@
+html, a, h1
+{
+    cursor: url("./immagini/cursor1.ico"), auto;
+}
+
+body
+{
+    background-image: url(./immagini/gameover1.jpg);
+}
+
+#gameOver
+{
+    position: absolute;
+    text-align: center;
+    left: 600px;
+    top: 2px;
+}
+
+#gameOver h1
+{
+    font-size: 80px;
+    color: orange;
+    text-shadow: -4px 0 orangered, 0 4px blueviolet, 4px 0 blueviolet, 0 -4px blueviolet;
+    border-radius: 10px;
+    font-family: OCR A Std, monospace;
+}
+
+#message
+{
+    font-size: 30px;
+    color: white;
+    text-shadow: -4px 0 blueviolet, 0 4px blueviolet, 4px 0 blueviolet, 0 -4px blueviolet;
+    border-radius: 10px;
+    font-family: OCR A Std, monospace;
+    position: absolute;
+    text-align: center;
+    left: 500px;
+    top: 100px;
+}
+
+#messageNewRecord
+{
+    font-size: 30px;
+    color: white;
+    text-shadow: -4px 0 blueviolet, 0 4px blueviolet, 4px 0 blueviolet, 0 -4px blueviolet;
+    border-radius: 10px;
+    font-family: OCR A Std, monospace;
+    position: absolute;
+    text-align: center;
+    left: 330px;
+    top: 100px;
+}
+
+#options
+{
+    position: absolute;
+    top: 250px;
+    left: 600px;
+    border: 10px groove white;
+    width: 360px;
+    height: 300px;
+    background: rgb(220, 126, 72)
+}
+
+#options a
+{
+    font-size: 50px;
+    color: white;
+    text-shadow: -4px 0 blueviolet, 0 4px blueviolet, 4px 0 blueviolet, 0 -4px blueviolet;
+    border-radius: 10px;
+    font-family: OCR A Std, monospace;
+    text-align: center;
+    text-decoration: none;
+}
+
+#resumeButton
+{
+    position: relative;
+    top: 60px;
+    left: 85px;
+}
+
+#homeButton
+{
+    position: relative;
+    top: 120px;
+    left: 120px;
+}

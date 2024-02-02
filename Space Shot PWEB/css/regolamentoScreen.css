@@ -1,0 +1,67 @@
+body
+{
+    background: url("./immagini/space4.png") no-repeat
+}
+
+#title
+{
+    width: 350px;
+    height: 60px;
+    margin-left: 550px;
+    margin-top: 20px;
+    background: darkblue;
+    border: 10px groove rgb(209, 162, 31);
+}
+
+#title h1
+{
+    margin-top: 5px;
+    font-size: 40px;
+    text-align: center;
+    color: yellow;
+    font-family: Optima, sans-serif;
+    text-shadow: -2px 0 rgb(145, 50, 15), 0 2px rgb(145, 50, 15), 2px 0 rgb(145, 50, 15), 0 -2px rgb(145, 50, 15);
+}
+
+#regolamento
+{
+    width: 970px;
+    height: 526px;
+    background: black;
+    opacity: 0.75;
+    margin-left: 230px;
+    box-shadow:  10px  10px 5px black,
+              -10px -10px 5px black,
+               10px -10px 5px black,
+              -10px  10px 5px black;
+}
+
+#regolamento p
+{
+    color: white;
+    font-size: 23px;
+    opacity: 1;
+    font-family: URW Chancery L, cursive;
+    text-align: center;
+}
+
+#home
+{
+    margin-top: 18px;
+    margin-left: 650px;
+    width: 170px;
+    height: 55px;
+    border: 10px groove rgb(209, 162, 31);
+    background: darkblue
+}
+
+#home a
+{
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: yellow;
+    font-family: Optima, sans-serif;
+    text-shadow: -2px 0 rgb(145, 50, 15), 0 2px rgb(145, 50, 15), 2px 0 rgb(145, 50, 15), 0 -2px rgb(145, 50, 15);
+}

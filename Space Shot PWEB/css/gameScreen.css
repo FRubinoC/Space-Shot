@@ -1,0 +1,242 @@
+html, button, a
+{
+    cursor: url("./immagini/cursor1.ico"), auto;
+}
+
+body
+{
+    background: black;
+    background: url("./immagini/space1.png") no-repeat center top;
+    background-size: cover;
+}
+
+#playground
+{
+    cursor: none;
+    margin: auto;
+	padding:0px;
+}
+
+#vite
+{
+    width: 40px;
+    height: 40px; 
+    background: url('./immagini/life.png');
+    display: inline-block;
+    border: none;
+    padding:0px;
+    margin:0 auto;
+    text-align: center;
+}
+
+#vite:focus
+{
+    outline: none;
+}
+
+#playground-red
+{
+    background: red;
+    background-size: cover;
+    cursor: none;
+    margin: auto;
+	padding:0px;
+}
+
+#stats
+{
+    width: 1500px;
+    height: 60px;
+    border: 3px solid darkblue;
+    background: grey;
+    vertical-align: top;
+    align-content: center;
+    /*margin: 0px auto;*/
+}
+
+#statsContent
+{
+    height: 45px;
+    margin: 6px  15px auto;
+}
+
+#trophyImage
+{
+    width: 35px;
+    height: 40px;
+    background: url("./immagini/trophy.png");
+    display: inline-block;
+}
+
+#coinImage1
+{
+    width: 40px;
+    height: 40px;
+    background: url("./immagini/coin1.png");
+    display: inline-block;
+}
+
+#coinImage2
+{
+    width: 40px;
+    height: 40px;
+    background: url("./immagini/coin2.png");
+    display: inline-block;
+}
+
+#coinImage3
+{
+    width: 40px;
+    height: 40px;
+    background: url("./immagini/coin3.png");
+    display: inline-block;
+}
+
+#coinImage4
+{
+    width: 40px;
+    height: 40px;
+    background: url("./immagini/coin4.png");
+    display: inline-block;
+}
+
+.statisticaVita
+{
+    width: 13%;
+    height: 40px;
+    display: inline-block;
+    font-size: 45px;
+    
+}
+
+.statistica
+{
+    width: 18%;
+    height: 40px;
+    display: inline-block;
+    font-size: 45px;
+}
+
+.statPW
+{
+    width: 46%;
+    height: 40px;
+    display: inline-block;
+    font-size: 45px;
+}
+
+#pausa
+{
+    width: 40px;
+    height: 40px;
+    background: url("./immagini/Settingsbtn.png");
+    border: none;
+    display: inline-block;
+}
+
+#pausa:focus
+{
+    outline: none;
+}
+
+
+
+#naveGiocatore
+{
+    width: 58px;
+    height: 60px;
+    background-image: url('./immagini/ship.png');
+    position: absolute;
+}
+
+.shot
+{
+	width: 10px;
+	height: 10px;
+    position: absolute;
+    background-image: url('./immagini/shot.png');
+}
+
+.alien
+{
+    width: 96px;
+    height: 46px;
+    position: absolute;
+}
+
+.explosion
+{
+    width: 62px;
+    height: 84px;
+    position: absolute;
+    background-image: url("./immagini/explosion.png");
+}
+
+#attacco
+{
+    width: 35px;
+    height: 40px;
+    background: url("./immagini/sword.png");
+    border: none;
+    padding: 0;
+    display: inline-block;
+}
+
+#attacco:focus
+{
+    outline: none;
+}
+
+#velocita
+{
+    width: 40px;
+    height: 40px;
+    background: url("./immagini/clock.png");
+    border: none;
+    margin-left: 40px;
+    padding: 0;
+    display: inline-block;
+}
+
+#velocita:focus
+{
+    outline: none;
+}
+
+#pausePopup
+{
+    width: 1500px;
+    height: 670px;
+    margin:0px auto;
+    position: absolute;
+    top: 80px;
+    left: 14px;
+    z-index: 102;
+}
+
+#pausePopupContent
+{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 445px;
+    background: url("./immagini/space3.jpg");
+    border: 10px groove white;
+}
+
+#pausePopupContent a
+{
+    cursor: url("./immagini/cursor1.ico"), auto;
+    font-size: 65px;
+    color: blueviolet;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Optima, sans-serif;
+}
+
+.pausePopupLabel
+{
+    margin-top: 60px;
+}
