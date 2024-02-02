@@ -1,2 +1,4 @@
 # Space-Shot
 Si tratta di un progetto per il corso di Progettazione Web per la Laurea Triennale in Ingegneria Informatica all'Università di Pisa, nell'anno accademico 2019/2020. 
+
+Per eseguire l'applicazione bisogna scaricare l'app XAMPP e seguire le istruzioni per installare il server Apache e MySQL. Inserire l'intero progetto all'interno della cartella htdocs di xampp, dopodichè aprire MySQL workbench sulla porta indicata da XAMPP ed eseguire lo script sql che si trova nella cartella sql del progetto, in modo da creare il database per la gestione degli utenti e degli score. Una volta lanciati Apache e MySql su XAMPP, è possibile accedere all'applicazione navigando sul browser all'indirizzo 'http://localhost:PORT' dove PORT è la porta indicata per il modulo Apache nel pannello di controllo di XAMPP.
